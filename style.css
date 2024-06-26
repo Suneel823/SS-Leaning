@@ -145,7 +145,7 @@ nav .navigation{
 
 /* features */
 #features{
-    padding: 5vw 8vw 8vw 8vw;
+    padding: 5vw 5vw;
     text-align: center;
   }
   .one{
@@ -153,8 +153,8 @@ nav .navigation{
     background-color: aliceblue;
     text-align:start;
     padding: 20px;
-    border: 20px lightsalmon;
-    border-radius: 50px 0px ;
+    border: 10px lightsalmon;
+    border-radius: 40px 0px ;
   }
   /* .one i{
     font-size: 0rem;
@@ -162,7 +162,7 @@ nav .navigation{
   } */
   .one h3{
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 500;
     color: orange;
     padding: 12px  0 7px 0;
   }
@@ -181,7 +181,7 @@ nav .navigation{
 /* course */
 
 #course{
-    padding: 2vw 5vw 5vw 5vw;
+    padding: 2vw 3vw 3vw 3vw;
     text-align: center;
     
   
@@ -189,8 +189,8 @@ nav .navigation{
   }
   #course .coursebox{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
-    grid-gap:2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-gap:1.5rem;
     margin-top: 50px;
     cursor: pointer;
     
